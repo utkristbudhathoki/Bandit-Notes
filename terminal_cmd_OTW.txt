@@ -1,0 +1,50 @@
+---> SSH(Secure Shell) is a secure network protocol used to remotely log in to and execute commands on another computer over a network.
+
+-------How to login into the ssh server ----------
+-------> ssh username@hostname -port(-p)
+---------example:ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+
+1) ls -a = For searching hidden file
+
+2) file ./* = used to determine the type of a file by examining its contents rather than just its filename or extension.
+
+3) find [path] [conditions]
+eg: find . -type f -size 1033c
+------->------->A dash (-) before a word or letter indicates an option (flag) that changes or controls how a command behaves.
+
+4) THE PASS FOR BANDIT 5 IS pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
+
+5) find / = search from the  root directory(whole server)
+
+6) 2>/dev/null = Hide permission denied error messages
+-------> 2 -->It refers to standard error (stderr).
+-------> 0 -->Standard Input (stdin)
+-------> 1 -->Standard Output (stdout)
+--------> > --> Redirect output(>)(The symbol > means "send the output somewhere else" (this is called redirection).)
+---------> /dev/null ---> A special file that discards anything sent to it
+
+7) Bandit 7 pass = Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
+
+8)bandit 8 pass = EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl
+
+9) sort data.txt | uniq -u
+---->sort arrange data in alphabetical or numerical order ,
+---->(The | symbol is called a pipe-----> Pipe (|) is a Linux operator that sends the output of one command as the input to another command.) ,
+---->(uniq ---> uniq removes consecutive duplicate lines, not all duplicates anywhere in the file.) ,
+---->(uniq -u ---> uniq -u displays only the lines that appear exactly once (unique lines).)
+
+10) strings data.txt | grep "="
+------>strings extracts human-readable text from a file.
+------>grep searches for a pattern.
+
+11)base64 -d data.txt
+------>base64 = Command for Base64 encoding/decoding
+------> -d is for decode
+------> TO ENCODE IT BACK :
+----------->echo "The password is pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro" | base64
+-------->echo is  used to display text or variable values on the terminal.
+
+12)pass for bandit 11 is = pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
+
+
