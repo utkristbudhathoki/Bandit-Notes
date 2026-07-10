@@ -13,7 +13,7 @@
 eg: find . -type f -size 1033c
 ------->------->A dash (-) before a word or letter indicates an option (flag) that changes or controls how a command behaves.
 
-4) THE PASS FOR BANDIT 5 IS pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
+4) THE PASS FOR BANDIT 5 = removed
 
 5) find / = search from the  root directory(whole server)
 
@@ -24,9 +24,9 @@ eg: find . -type f -size 1033c
 --------> > --> Redirect output(>)(The symbol > means "send the output somewhere else" (this is called redirection).)
 ---------> /dev/null ---> A special file that discards anything sent to it
 
-7) Bandit 7 pass = Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
+7) Bandit 7 pass = removed
 
-8)bandit 8 pass = EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl
+8)bandit 8 pass = removed
 
 9) sort data.txt | uniq -u
 ---->sort arrange data in alphabetical or numerical order ,
@@ -45,6 +45,6 @@ eg: find . -type f -size 1033c
 ----------->echo "The password is pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro" | base64
 -------->echo is  used to display text or variable values on the terminal.
 
-12)pass for bandit 11 is = pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
+12)pass for bandit 11 is = removed
 
 
