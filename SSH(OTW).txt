@@ -38,13 +38,13 @@ eg: find . -type f -size 1033c
 ------>strings extracts human-readable text from a file.
 ------>grep searches for a pattern.
 
-11)base64 -d data.txt
+11.base64 -d data.txt
 ------>base64 = Command for Base64 encoding/decoding
 ------> -d is for decode
 ------> TO ENCODE IT BACK :
 ----------->echo "The password is pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro" | base64
 -------->echo is  used to display text or variable values on the terminal.
 
-12)pass for bandit 11 is = removed
+12.pass for bandit 11 is = removed
 
 
